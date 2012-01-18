@@ -1,7 +1,92 @@
 <html>
 <body>
 <link rel="stylesheet" href="http://calendaraboutnothing.com/styles/widget/seinfeld-badge.css" media="screen, projection" type="text/css">
+<style>
 
+/*------------------------------------------------------------------------------------
+  @group Calendar Styles
+------------------------------------------------------------------------------------*/
+
+#calendar, #widget{
+  margin:30px auto 15px auto;
+  padding:0 0 20px 0;
+  width:700px;
+  background:#fff;
+  font-size:24px;
+  border-top:2px solid #000;
+  border-bottom:1px solid #000;
+}
+
+
+#calendar table{
+  width:700px;
+  border-spacing:none;
+  border-collapse:collapse;
+}
+
+#calendar table th.monthName{
+  padding:10px 0;
+  font-size:48px;
+  letter-spacing:5px;
+  text-transform:uppercase;
+  color:#b20000;
+}
+#calendar table th a{
+  display:block;
+  color:#00538d;
+  font-weight:normal;
+  text-align:left;
+  text-decoration:none;
+  font-size:11px;
+  text-transform:uppercase;
+}
+#calendar table th a.next{ text-align:right; }
+
+#calendar table td{
+  position:relative;
+  text-align:center;
+  font-size:36px;
+  font-weight:bold;
+  width:100px;
+  height:60px;
+}
+#calendar table td.otherMonth{
+  color:#ccc;
+}
+
+#widget form {
+  width:700px;
+  margin:0; padding:0;
+}
+
+#widget p{
+  font-size: 12px;
+}
+
+#widget textarea {
+  width:400px;
+  height:150px;
+  margin:0 150px;
+}
+
+tr.dayname th{
+  width:100px;
+  padding:5px 0;
+  text-transform:uppercase;
+  font-size:12px;
+  color:#666;
+  font-weight:normal;
+  letter-spacing:2px;
+  border:1px solid #eee;
+  border-left:none;
+  border-right:none;
+}
+tr.dayname abbr{
+  border:none;
+}
+
+/* @end */
+</style>
 <div class="seinfeld-badge user-maysam" style="width:700px; height:400px">
   <h2>I like open software</h2>
   <p><a href="http://calendaraboutnothing.com/~maysam" rel="me">Calendar About Nothing</a> tracks my public contributions on <A href="https://github.com/maysam">GitHub</a>.</p>
